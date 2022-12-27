@@ -1,0 +1,247 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{414141}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Francisco}{d'Albertas Gomes de Carvalho}
+
+\position{Postdoctoral researcher}
+\address{International Institute for Sustainability (IIS). Estrada Dona
+Castorina, 124 Horto, Rio de Janeiro, Brasil 22460-320}
+
+\mobile{+55 11 99121 8851}
+\email{\href{mailto:francisco.albertas@gmail.com}{\nolinkurl{francisco.albertas@gmail.com}}}
+\homepage{franciscodalbertas.netlify.app}
+\github{franciscodalbertas}
+\twitter{FdAlbertas}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{2em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\honortitlestyle{#1}}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\honordatestyle{#1}}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{about-me}{%
+\section{About me}\label{about-me}}
+
+Biologist with a Master and a Ph.D.~in Ecology with 10 years' experience
+working with applied research focusing on understanding how the spatial
+pattern of human-modified landscapes affects biodiversity, ecosystem
+services provision and the Climate. Something about policy too.
+
+\hypertarget{skills}{%
+\section{Skills}\label{skills}}
+
+\hypertarget{r---markdown---gis---data-analysis---ecosystem-service-modelling---environmental-restoration---writing-and-communication---google-earth-engine}{%
+\subsection{R - markdown - GIS - data analysis - ecosystem service
+modelling - environmental restoration - writing and communication -
+Google Earth
+Engine}\label{r---markdown---gis---data-analysis---ecosystem-service-modelling---environmental-restoration---writing-and-communication---google-earth-engine}}
+
+\hypertarget{languages}{%
+\section{Languages}\label{languages}}
+
+\hypertarget{portuguese-native---english-fluent---french-advanced---spanish-intermediate}{%
+\subsection{Portuguese (native) - English (fluent) - French (advanced) -
+Spanish
+(intermediate)}\label{portuguese-native---english-fluent---french-advanced---spanish-intermediate}}
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\begin{cventries}
+    \cventry{PhD in Ecology}{Universidade de São Paulo}{São Paulo, Brasil}{2017-2022}{}\vspace{-4.0mm}
+    \cventry{Master in Ecology}{Universidade de São Paulo}{São Paulo, Brasil}{2013-2015}{}\vspace{-4.0mm}
+    \cventry{Biological Sciences degree}{Universidade de São Paulo}{São Paulo, Brasil}{2006-2011}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{professional-experience}{%
+\section{Professional experience}\label{professional-experience}}
+
+\hypertarget{jobs}{%
+\subsection{Jobs}\label{jobs}}
+
+\begin{cventries}
+    \cventry{Research Technician - Sao Paulo Research Foundation Training fellowship  as part of the Biodiversity and Ecosystem Service Scenarios Network (ScenNet)}{Laboratório de Ecologia da Paisagem e Conservação-LEPaC(Departmento de Ecologia, Universidade de São Paulo) }{São Paulo, Brasil}{2015-2017}{}\vspace{-4.0mm}
+    \cventry{Junior environmental analyst (Internship) - Protected Areas Monitoring Programe}{Instituto Socioambiental - ISA}{São Paulo, Brasil}{2012-2013}{}\vspace{-4.0mm}
+    \cventry{Junior environmental analyst (Internship) - Oil and mining environmental impact evaluation }{Mineral Engenharia e Ambiente}{São Paulo, Brasil}{2011-2012}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{consultancy}{%
+\subsection{Consultancy}\label{consultancy}}
+
+\begin{cventries}
+    \cventry{Consultancy - Monitoring deforestation and fire within Amazonia and Cerrado protected areas}{World Wildlife Fund - WWF Brazil }{São Paulo, Brasil}{2020-2021}{}\vspace{-4.0mm}
+    \cventry{Consultancy - Mapping threats to federal and state protected areas in Brazil}{Instituto Socioambiental - ISA }{São Paulo, Brasil}{2017-2018}{}\vspace{-4.0mm}
+    \cventry{Consultancy - Planning ecological corridors between indigenous lands}{Klabin s/a Papel e Celulose }{Paraná, Brasil}{2016}{}\vspace{-4.0mm}
+    \cventry{Consultancy - Floristic inventory of urban areas in Sao Paulo}{Bloomberg Philanthropies e Global Road Safety }{São Paulo, Brasil}{2016}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{research-experience}{%
+\section{Research experience}\label{research-experience}}
+
+\begin{cventries}
+    \cventry{Visiting researcher - Colaboration with Andrew Balmford's group (Conservation Science Group)}{University of Cambridge }{Cambridge, United Kingdom}{2020-2021}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
+
+\hypertarget{bibliography}{}
+\leavevmode\vadjust pre{\hypertarget{ref-dalbertas_agricultural_2023}{}}%
+\CSLLeftMargin{1. }%
+\CSLRightInline{d'Albertas, F., Ruggiero, P., Pinto, L. F. G., Sparovek,
+G., \& Metzger, J. P. (2023). Agricultural certification as a
+complementary tool for environmental law compliance. \emph{Biological
+Conservation}, \emph{277}, 109847.
+\url{https://doi.org/10.1016/j.biocon.2022.109847}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-pashkevich_nine_2022}{}}%
+\CSLLeftMargin{2. }%
+\CSLRightInline{Pashkevich, M. D., d'Albertas, F., Aryawan, A. A. K.,
+Buchori, D., Caliman, J.-P., Chaves, A. D. G., Hidayat, P., Kreft, H.,
+Naim, M., Razafimahatratra, A., Turner, E. C., Zemp, D. C., \& Luke, S.
+H. (2022). Nine actions to successfully restore tropical agroecosystems.
+\emph{Trends in Ecology \& Evolution}.
+\url{https://doi.org/10.1016/j.tree.2022.07.007}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-dalbertas_private_2021}{}}%
+\CSLLeftMargin{3. }%
+\CSLRightInline{d'Albertas, F., González-Chaves, A., Borges-Matos, C.,
+Zago de Almeida Paciello, V., Maron, M., \& Metzger, J. P. (2021).
+Private reserves suffer from the same location biases of public
+protected areas. \emph{Biological Conservation}, \emph{261}, 109283.
+\url{https://doi.org/10.1016/j.biocon.2021.109283}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-dalbertas_lack_2018}{}}%
+\CSLLeftMargin{4. }%
+\CSLRightInline{d'Albertas, F., Costa, K., Romitelli, I., Barbosa, J.
+M., Vieira, S. A., \& Metzger, J. P. (2018). Lack of evidence of edge
+age and additive edge effects on carbon stocks in a tropical forest.
+\emph{Forest Ecology and Management}, \emph{407}, 57--65.
+\url{https://doi.org/10.1016/j.foreco.2017.09.042}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-acosta_gaps_2018}{}}%
+\CSLLeftMargin{5. }%
+\CSLRightInline{Acosta, A. L., d'Albertas, F., Leite, M. de S., Saraiva,
+A. M., \& Metzger, J. P. W. (2018). Gaps and limitations in the use of
+restoration scenarios: A review. \emph{Restoration Ecology},
+\emph{26}(6), 1108--1119. \url{https://doi.org/10.1111/rec.12882}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-metzger_best_2017}{}}%
+\CSLLeftMargin{6. }%
+\CSLRightInline{Metzger, J. P., Esler, K., Krug, C., Arias, M., Tambosi,
+L., Crouzeilles, R., Acosta, A. L., Brancalion, P. H., D'Albertas, F.,
+Duarte, G. T., Garcia, L. C., Grytnes, J.-A., Hagen, D., Jardim, A. V.
+F., Kamiyama, C., Latawiec, A. E., Rodrigues, R. R., Ruggiero, P. G.,
+Sparovek, G., \ldots{} Joly, C. (2017). Best practice for the use of
+scenarios for restoration planning. \emph{Current Opinion in
+Environmental Sustainability}, \emph{29}, 14--25.
+\url{https://doi.org/10.1016/j.cosust.2017.10.004}}
+
+
+\label{LastPage}~
+\end{document}
