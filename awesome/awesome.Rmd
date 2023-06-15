@@ -3,12 +3,12 @@ name: Francisco
 surname: d'Albertas Gomes de Carvalho
 position: "Postdoctoral researcher"
 address: "International Institute for Sustainability (IIS). Estrada Dona Castorina, 124 Horto, Rio de Janeiro, Brasil 22460-320"
-phone: +55 11 99121 8851
+#phone: +55 11 99121 8851
 email: "francisco.albertas@gmail.com"
-www: franciscodalbertas.netlify.app
+www: fdalbertas.com
 twitter: FdAlbertas
 github: franciscodalbertas
-#linkedin: franciscodalbertas
+linkedin: franciscodalbertas
 headcolor: "414141"
 date: "`r format(Sys.time(), '%B %Y')`"
 output: 
