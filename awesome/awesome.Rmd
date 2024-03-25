@@ -24,7 +24,7 @@ library(vitae)
 
 # About me
 
-Biologist with a master’s and a PhD in Ecology with 10 years of experience working with applied research focusing on understanding how the spatial pattern of human-modified landscapes affects biodiversity, ecosystem services provision and the Climate. My main interests are related to landscape planning, spatial analysis, and the interface between science, policy, and impact evaluation.
+I am a landscape ecologist with a master's and Ph.D. in Ecology, and my work centres on assessing the impacts of agriculture on biodiversity, climate, and ecosystem service outcomes, as well on the value of ecological restoration.
 
 # Skills
 
@@ -55,7 +55,7 @@ tribble(
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
   "Postdoctoral researcher and data scientist at the project Trade, Development and the Environment HUB","2022","International Institute for Sustainability-IIS","Rio de Janeiro, Brazil",
-  "Research Technician - Sao Paulo Research Foundation Training fellowship  as part of the Biodiversity and Ecosystem Service Scenarios Network (ScenNet)", "2015-2017", "Laboratório de Ecologia da Paisagem e Conservação-LEPaC(Departmento de Ecologia, Universidade de São Paulo) ", "São Paulo, Brasil",
+  "Researcher - Sao Paulo Research Foundation Training fellowship  as part of the Biodiversity and Ecosystem Service Scenarios Network (ScenNet)", "2015-2017", "Laboratório de Ecologia da Paisagem e Conservação-LEPaC(Departmento de Ecologia, Universidade de São Paulo) ", "São Paulo, Brasil",
   "Junior environmental analyst (Internship) - Protected Areas Monitoring Programe", "2012-2013", "Instituto Socioambiental - ISA", "São Paulo, Brasil",
   "Junior environmental analyst (Internship) - Oil and mining environmental impact evaluation ", "2011-2012", "Mineral Engenharia e Ambiente", "São Paulo, Brasil",
   
@@ -96,7 +96,7 @@ tribble(
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
   
-  "Visiting researcher supervised by Andrew Balmford", "2020-2021", "Conservation Science Group, University of Cambridge ", "Cambridge, United Kingdom"
+  "Visiting researcher supervised by Professor Andrew Balmford", "2020-2021", "Conservation Science Group, University of Cambridge ", "Cambridge, United Kingdom"
   
   
 ) %>% 

@@ -1,0 +1,116 @@
+---
+name: Francisco
+surname: d'Albertas Gomes de Carvalho
+position: "Pesquisador"
+address: "International Institute for Sustainability (IIS). Estrada Dona Castorina, 124 Horto, Rio de Janeiro, Brasil 22460-320"
+phone: +55 11 99121 8851
+email: "francisco.albertas@gmail.com"
+www: franciscodalbertas.netlify.app
+twitter: FdAlbertas
+github: franciscodalbertas
+#linkedin: franciscodalbertas
+headcolor: "414141"
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::awesomecv:
+    page_total: true
+    keep_tex: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Sobre mim
+
+Sou biólogo com mestrado e doutorado em Ecologia e possuo 10 anos de experiência trabalhando com pesquisa aplicada, com foco em entender como o padrão espacial de paisagens modificadas pelo ser humano afeta a biodiversidade, a provisão de serviços ecossistêmicos e o clima. Meus principais interesses estão relacionados ao planejamento de paisagens, análise espacial e à interface entre ciência, políticas públicas e avaliação de impacto.
+
+# Habilidades
+
+## R - markdown - SIG  - análise de dados - modelagem serviços ecossistêmicos - restauração ecológica - escrita e comunicação - Google Earth Engine  - priorização espacial
+
+# Idiomas
+
+## Portugues (nativo) - Inglês (fluente) - Francês (avançado) - Espanhol (intermediário)
+
+
+# Educação
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Doutorado em Ecologia", "2017-2022", "Universidade de São Paulo", "São Paulo, Brasil",
+  "Mestrado em Ecologia", "2013-2015", "Universidade de São Paulo", "São Paulo, Brasil",
+  "Bacharelado em Ciências Biológicas", "2006-2011", "Universidade de São Paulo", "São Paulo, Brasil",
+  
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Experiência profissional
+## Trabalhos
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Pesquisador e cientista de dados no projeto Trade, Development and the Environment HUB","2022","International Institute for Sustainability-IIS","Rio de Janeiro, Brazil",
+  "Técnico de pesquisa - Bolsa de treinamento técnico da Fundação de Amparo a Pesquisa de São Paulo-FAPESP como parte  do projeto Biodiversity and Ecosystem Service Scenarios Network (ScenNet)", "2015-2017", "Laboratório de Ecologia da Paisagem e Conservação-LEPaC(Departmento de Ecologia, Universidade de São Paulo) ", "São Paulo, Brasil",
+  "Analista ambiental junior (estágio) - Programa de monitoramento de áreas protegidas", "2012-2013", "Instituto Socioambiental - ISA", "São Paulo, Brasil",
+  "Analista ambiental junior (estágio) - Estudo e avaliação de impacto ambiental nos setores de mineração e petróleo", "2011-2012", "Mineral Engenharia e Ambiente", "São Paulo, Brasil",
+  
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+## Consultoria
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Consultoria - Avaliação da condição de linha de base dos serviços ecossistêmicos prioritários em bacias hidrográficas potencialmente ameaçadas por operações de mineração no estado de Minas Gerais","2021","Aquaflora provendo serviços para Vale S.A.","São Paulo, Brasil", 
+  "Consultoria - Monitoramento de desmatamento e incêndios dentro de áreas protegidas da Amazônia e do Cerrado.", "2020-2021", "World Wildlife Fund - WWF Brazil ", "São Paulo, Brasil",
+  "Consultoria - Mapeamento ameaças às áreas protegidas federais e estaduais no Brasil", "2017-2018", "Instituto Socioambiental - ISA ", "São Paulo, Brasil",
+  "Consultoria - Planejamento de corredores ecológicos entre terras indígenas do Paraná", "2016", "Klabin s/a Papel e Celulose ", "Paraná, Brasil",
+  "Consultoria - Inventário florístico de São Miguel Paulista, São Paulo", "2016", "Bloomberg Philanthropies e Global Road Safety ", "São Paulo, Brasil"
+  
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+## Ensino
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Professor - Co-organização da disciplina Landscape use, para estudantes de master in management","2022", "Fundação Getulio Vargas", "Rio de Janeiro, Brazil" 
+  
+  
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Experiência Internacional
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  
+  "Estudante visitante supervisiondo por Andrew Balmford", "2020-2021", "Conservation Science Group, University of Cambridge ", "Cambridge, United Kingdom"
+  
+  
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+# Publicações 
+
+```{r}
+library(dplyr)
+#knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+#x <- bibliography_entries("my_pubs.bib")
+bibliography_entries("my_pubs.bib") %>%
+  arrange(desc(issued))
+```
+
