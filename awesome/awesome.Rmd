@@ -1,0 +1,116 @@
+---
+name: Francisco
+surname: d'Albertas Gomes de Carvalho
+position: "Postdoctoral researcher"
+address: "International Institute for Sustainability (IIS). Estrada Dona Castorina, 124 Horto, Rio de Janeiro, Brasil 22460-320"
+#phone: +55 11 99121 8851
+email: "francisco.albertas@gmail.com"
+www: fdalbertas.com
+twitter: FdAlbertas
+github: franciscodalbertas
+linkedin: franciscodalbertas
+headcolor: "414141"
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::awesomecv:
+    page_total: true
+    keep_tex: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# About me
+
+I am a landscape ecologist with a master's and Ph.D. in Ecology, and my work centres on assessing the impacts of agriculture on biodiversity, climate, and ecosystem service outcomes, as well on the value of ecological restoration.
+
+# Skills
+
+## R - markdown - GIS  - data analysis - ecosystem service modelling - ecological restoration - writing and communication - Google Earth Engine  - spatial prioritization
+
+# Languages
+
+## Portuguese (native) - English (fluent) - French (advanced) - Spanish (intermediate)
+
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "PhD in Ecology", "2017-2022", "Universidade de São Paulo", "São Paulo, Brasil",
+  "Master in Ecology", "2013-2015", "Universidade de São Paulo", "São Paulo, Brasil",
+  "Biological Sciences degree", "2006-2011", "Universidade de São Paulo", "São Paulo, Brasil",
+  
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Professional experience
+## Jobs
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Postdoctoral researcher and data scientist at the project Trade, Development and the Environment HUB","2022","International Institute for Sustainability-IIS","Rio de Janeiro, Brazil",
+  "Researcher - Sao Paulo Research Foundation Training fellowship  as part of the Biodiversity and Ecosystem Service Scenarios Network (ScenNet)", "2015-2017", "Laboratório de Ecologia da Paisagem e Conservação-LEPaC(Departmento de Ecologia, Universidade de São Paulo) ", "São Paulo, Brasil",
+  "Junior environmental analyst (Internship) - Protected Areas Monitoring Programe", "2012-2013", "Instituto Socioambiental - ISA", "São Paulo, Brasil",
+  "Junior environmental analyst (Internship) - Oil and mining environmental impact evaluation ", "2011-2012", "Mineral Engenharia e Ambiente", "São Paulo, Brasil",
+  
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+## Consultancy
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Consultancy - Evaluating the baseline condition of priority ecosystem services at watersheds potentially threatened by mining operation in Minas Gerais ||State","2021","Aquaflora providing services to Vale S.A.","São Paulo, Brazil", 
+  "Consultancy - Monitoring deforestation and fire within Amazonia and Cerrado protected areas", "2020-2021", "World Wildlife Fund - WWF Brazil ", "São Paulo, Brasil",
+  "Consultancy - Mapping threats to federal and state protected areas in Brazil", "2017-2018", "Instituto Socioambiental - ISA ", "São Paulo, Brasil",
+  "Consultancy - Planning ecological corridors between indigenous lands", "2016", "Klabin s/a Papel e Celulose ", "Paraná, Brasil",
+  "Consultancy - Floristic inventory of urban areas in Sao Paulo", "2016", "Bloomberg Philanthropies e Global Road Safety ", "São Paulo, Brasil"
+  
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+## Teaching
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Professor - Co-organization with Carlos Alberto Scaramuzza of a short term course entitled Landscape use, for master in management students","2022", "Fundação Getulio Vargas", "Rio de Janeiro, Brazil" 
+  
+  
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Research experience
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  
+  "Visiting researcher supervised by Professor Andrew Balmford", "2020-2021", "Conservation Science Group, University of Cambridge ", "Cambridge, United Kingdom"
+  
+  
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+# Publications
+
+```{r}
+library(dplyr)
+#knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+#x <- bibliography_entries("my_pubs.bib")
+bibliography_entries("my_pubs.bib") %>%
+  arrange(desc(issued))
+```
+
