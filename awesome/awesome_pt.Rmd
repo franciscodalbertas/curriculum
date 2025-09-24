@@ -2,13 +2,14 @@
 name: Francisco
 surname: d'Albertas Gomes de Carvalho
 position: "Pesquisador"
-address: "International Institute for Sustainability (IIS). Estrada Dona Castorina, 124 Horto, Rio de Janeiro, Brasil 22460-320"
+address: "Conservation Research Institute (UCCRI),
+Department of Zoology,University of Cambridge"
 phone: +55 11 99121 8851
 email: "francisco.albertas@gmail.com"
-www: franciscodalbertas.netlify.app
+www: fdalbertas.com
 twitter: FdAlbertas
 github: franciscodalbertas
-#linkedin: franciscodalbertas
+linkedin: franciscodalbertas
 headcolor: "414141"
 date: "`r format(Sys.time(), '%B %Y')`"
 output: 
@@ -24,15 +25,16 @@ library(vitae)
 
 # Sobre mim
 
-Sou biólogo com mestrado e doutorado em Ecologia e possuo 10 anos de experiência trabalhando com pesquisa aplicada, com foco em entender como o padrão espacial de paisagens modificadas pelo ser humano afeta a biodiversidade, a provisão de serviços ecossistêmicos e o clima. Meus principais interesses estão relacionados ao planejamento de paisagens, análise espacial e à interface entre ciência, políticas públicas e avaliação de impacto.
+Sou ecólogo de paisagem, com mestrado e doutorado em ecologia. Meu trabalho se concentra em soluções baseadas na natureza que promovem a conservação da biodiversidade e a mitigação das mudanças climáticas. Avalio os impactos ecológicos e econômicos de estratégias de conservação, como a restauração ecológica, com ênfase em projetos de crédito de carbono como ferramenta para financiar as ações. Ao longo da minha carreira, tenho orientado minha pesquisa para questões aplicadas, com o objetivo de subsidiar políticas públicas e orientar decisões de conservação.
 
-# Habilidades
+# Habilidades & Línguas
 
-## R - markdown - SIG  - análise de dados - modelagem serviços ecossistêmicos - restauração ecológica - escrita e comunicação - Google Earth Engine  - priorização espacial
+## **Ferramentas**: R, SIG, Google Earth Engine, Análise de Dados, Prioritização Espacial, Modelagem de serviços Ecossistêmicos 
 
-# Idiomas
+## **Técnicas**: Restauração Ecológica, Conservação, Governança, Escrita & Comunicação 
 
-## Portugues (nativo) - Inglês (fluente) - Francês (avançado) - Espanhol (intermediário)
+## **Línguas**: Portugues (nativo), Inglês (fluente), Francês (avançado), Espanhol (intermediario)
+
 
 
 # Educação
@@ -41,7 +43,7 @@ Sou biólogo com mestrado e doutorado em Ecologia e possuo 10 anos de experiênc
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Doutorado em Ecologia", "2017-2022", "Universidade de São Paulo", "São Paulo, Brasil",
+  "Doutorado em Ecologia", "2017-2022", "Universidade de São Paulo com 1 ano de sanduíche na Universidade de Cambridge", "São Paulo, Brasil",
   "Mestrado em Ecologia", "2013-2015", "Universidade de São Paulo", "São Paulo, Brasil",
   "Bacharelado em Ciências Biológicas", "2006-2011", "Universidade de São Paulo", "São Paulo, Brasil",
   
@@ -63,7 +65,7 @@ tribble(
   detailed_entries(Degree, Year, Institution, Where)
 ```
 
-## Consultoria
+## Trabalhos selecionados de consultoria
 
 ```{r}
 tribble(
@@ -90,27 +92,28 @@ tribble(
   detailed_entries(Degree, Year, Institution, Where)
 ```
 
-# Experiência Internacional
-
-```{r}
-tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where,
-  
-  "Estudante visitante supervisiondo por Andrew Balmford", "2020-2021", "Conservation Science Group, University of Cambridge ", "Cambridge, United Kingdom"
-  
-  
-) %>% 
-  detailed_entries(Degree, Year, Institution, Where)
-```
 
 
-# Publicações 
+# Publicações selecionadas
 
-```{r}
-library(dplyr)
-#knitr::write_bib(c("vitae", "tibble"), "packages.bib")
-#x <- bibliography_entries("my_pubs.bib")
-bibliography_entries("my_pubs.bib") %>%
-  arrange(desc(issued))
-```
+- Borges‑Matos, C., **d’Albertas, F.**, et al. (2025). Combining protection and restoration strategies enables cost effective compensation with ecological equivalence in Brazil. Environmental Impact Assessment Review, 114, 107922. https://doi.org/10.1016/j.eiar.2025.107922
 
+- Balmford, A., Ball, T. S., Balmford, B., Bateman, I. J., Buchanan, G., Cerullo, G., **d’Albertas, F.** et al. (2025). Time to fix the biodiversity leak. Science, 387(6735), 720–722. https://doi.org/10.1126/science.adv8264
+
+- Cerullo, G., Worthington, T., Brancalion, P., Brandão, J., **d’Albertas, F.** et al. (2024). Conflicts and opportunities for commercial tree plantation expansion and biodiversity restoration across brazil. Global Change Biology, 30(3), e17208. https://doi.org/10.1111/gcb.17208
+
+- **d’Albertas, F.**, et al. (2023). Yield increases mediated by pollination and carbon payments can offset restoration costs in coffee landscapes. One Earth. https://doi.org/10.1016/j.oneear.2023.11.007
+
+- Berger, I., Dicks, L. V., & **Gomes de Carvalho, F. d’Albertas**. (2023). Quantify wild areas that optimize agricultural yields. Nature, 622(7984), 697–697. https://doi.org/10.1038/d41586-023-03312-y
+
+- González‑Chaves, A. D., Carvalheiro, L. G., Piffer, P. R.,**d’Albertas, F.**, et al. (2023). Evidence of time‑lag in the provision of ecosystem services by tropical regenerating forests to coffee yields. Environmental Research Letters, 18(2), 025002. https://doi.org/10.1088/1748-9326/acb161
+
+- Pashkevich, M. D., **d’Albertas, F.** et al. (2022). Nine actions to successfully restore tropical agroecosystems. Trends in Ecology & Evolution. https://doi.org/10.1016/j.tree.2022.07.007
+
+- **d’Albertas, F.et al**. (2018). Lack of evidence of edge age and additive edge effects on carbon stocks in a tropical forest. Forest Ecology and Management, 407, 57–65. https://doi.org/10.1016/j.foreco.2017.09.042
+
+- Acosta, A. L., **d’Albertas, F.** et al. (2018). Gaps and limitations in the use of restoration scenarios: A review. Restoration Ecology, 26(6), 1108–1119. https://doi.org/10.1111/rec.12882
+
+- Metzger, J. P., Esler, K., Krug, C., Arias, M., Tambosi, L., Crouzeilles, R., Acosta, A. L., Brancalion, P. H., **d’Albertas, F.** et al (2017). Best practice for the use of scenarios for restoration planning. Current Opinion in Environmental Sustainability, 29, 14–25. https://doi.org/10.1016/j.cosust.2017.10.004
+
+## Full publication list at fdalbertas.com

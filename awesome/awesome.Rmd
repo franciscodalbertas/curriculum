@@ -7,7 +7,7 @@ Department of Zoology,University of Cambridge"
 #phone: +55 11 99121 8851
 email: "fd370@cam.ac.uk"
 www: fdalbertas.com
-twitter: FdAlbertas
+#twitter: FdAlbertas
 github: franciscodalbertas
 linkedin: franciscodalbertas
 headcolor: "414141"
@@ -25,15 +25,15 @@ library(vitae)
 
 # About me
 
-I am a landscape ecologist with a master's and Ph.D. in Ecology, and my work centers on assessing the impacts of agriculture on biodiversity, climate, and ecosystem service outcomes, as well on the value of ecological restoration.
+I am a landscape ecologist with master’s and doctoral training in ecology. My work focuses on nature-based solutions that promote biodiversity conservation and climate change mitigation. I assess the ecological and economic impacts of conservation strategies, such as ecological restoration, with a particular emphasis on carbon credit projects as a tool to deliver credible and effective outcomes. Throughout my career, I have oriented my work toward applied questions, with the goal of informing policy and guiding real-world conservation decisions.
 
-# Skills
+# Skills & Languages
 
-## R - markdown - GIS  - data analysis - ecosystem service modelling - ecological restoration - writing and communication - Google Earth Engine  - spatial prioritization
+## **Technical**: R, GIS, Google Earth Engine, Data Analysis, Spatial Prioritization, Ecosystem Service Modelling 
 
-# Languages
+## **Conservation Practice**: Ecological Restoration, Policy Analysis, Writing & Communication 
 
-## Portuguese (native) - English (fluent) - French (advanced) - Spanish (intermediate)
+## **Languages**: Portuguese (native), English (fluent), French (advanced), Spanish (intermediate)
 
 
 # Education
@@ -42,7 +42,7 @@ I am a landscape ecologist with a master's and Ph.D. in Ecology, and my work cen
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "PhD in Ecology", "2017-2022", "Universidade de São Paulo", "São Paulo, Brasil",
+  "PhD in Ecology", "2017-2022", "Universidade de São Paulo with 1 year as visiting researcher at the University of Cambridge", "São Paulo, Brasil",
   "Master in Ecology", "2013-2015", "Universidade de São Paulo", "São Paulo, Brasil",
   "Biological Sciences degree", "2006-2011", "Universidade de São Paulo", "São Paulo, Brasil",
   
@@ -51,11 +51,11 @@ tribble(
 ```
 
 # Professional experience
-## Jobs
+
 ```{r}
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Research associate","2024","Conservation Research Institute,Department of Zoology,University of Cambridge","Cambridge, UK",
+  "Research associate","2024 - Present","Conservation Research Institute,Department of Zoology,University of Cambridge","Cambridge, UK",
   "Researcher and data scientist at the project Trade, Development and the Environment HUB","2022-2024","International Institute for Sustainability-IIS","Rio de Janeiro, Brazil",
   "Researcher - Sao Paulo Research Foundation Training fellowship  as part of the Biodiversity and Ecosystem Service Scenarios Network (ScenNet)", "2015-2017", "Laboratório de Ecologia da Paisagem e Conservação-LEPaC(Departmento de Ecologia, Universidade de São Paulo) ", "São Paulo, Brasil",
   "Junior environmental analyst (Internship) - Protected Areas Monitoring Programe", "2012-2013", "Instituto Socioambiental - ISA", "São Paulo, Brasil",
@@ -65,16 +65,16 @@ tribble(
   detailed_entries(Degree, Year, Institution, Where)
 ```
 
-## Consultancy
+## Selected Consultancies
 
 ```{r}
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Consultancy - Evaluating the baseline condition of priority ecosystem services at watersheds potentially threatened by mining operation in Minas Gerais ||State","2021","Aquaflora providing services to Vale S.A.","São Paulo, Brazil", 
-  "Consultancy - Monitoring deforestation and fire within Amazonia and Cerrado protected areas", "2020-2021", "World Wildlife Fund - WWF Brazil ", "São Paulo, Brasil",
-  "Consultancy - Mapping threats to federal and state protected areas in Brazil", "2017-2018", "Instituto Socioambiental - ISA ", "São Paulo, Brasil",
-  "Consultancy - Planning ecological corridors between indigenous lands", "2016", "Klabin s/a Papel e Celulose ", "Paraná, Brasil",
-  "Consultancy - Floristic inventory of urban areas in Sao Paulo", "2016", "Bloomberg Philanthropies e Global Road Safety ", "São Paulo, Brasil"
+  "Evaluating the baseline condition of priority ecosystem services at watersheds potentially threatened by mining operation in Minas Gerais State","2021","Aquaflora providing services to Vale S.A.","São Paulo, Brazil", 
+  "Monitoring deforestation and fire within Amazonia and Cerrado protected areas", "2020-2021", "World Wildlife Fund - WWF Brazil ", "São Paulo, Brasil",
+  "Mapping threats to federal and state protected areas in Brazil", "2017-2018", "Instituto Socioambiental - ISA ", "São Paulo, Brasil",
+  "Designing ecological corridors between indigenous lands", "2016", "Klabin s/a Papel e Celulose ", "Paraná, Brasil",
+  " Floristic inventory of urban areas in Sao Paulo", "2016", "Bloomberg Philanthropies e Global Road Safety ", "São Paulo, Brasil"
   
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
@@ -85,20 +85,7 @@ tribble(
 ```{r}
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Professor - Co-organization with Carlos Alberto Scaramuzza of a short term course entitled Landscape use, for master in management students","2022", "Fundação Getulio Vargas", "Rio de Janeiro, Brazil" 
-  
-  
-) %>% 
-  detailed_entries(Degree, Year, Institution, Where)
-```
-
-# Research experience
-
-```{r}
-tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where,
-  
-  "Visiting researcher supervised by Professor Andrew Balmford", "2020-2021", "Conservation Science Group, University of Cambridge ", "Cambridge, United Kingdom"
+  "Professor - Co-organized and taught short course Landscape Use for master’s students in management.","2022", "Fundação Getulio Vargas", "Rio de Janeiro, Brazil" 
   
   
 ) %>% 
@@ -106,13 +93,39 @@ tribble(
 ```
 
 
-# Publications
+# Selected Publications
+
+- Borges‑Matos, C., **d’Albertas, F.**, et al. (2025). Combining protection and restoration strategies enables cost effective compensation with ecological equivalence in Brazil. Environmental Impact Assessment Review, 114, 107922. https://doi.org/10.1016/j.eiar.2025.107922
+
+- Balmford, A., Ball, T. S., Balmford, B., Bateman, I. J., Buchanan, G., Cerullo, G., **d’Albertas, F.** et al. (2025). Time to fix the biodiversity leak. Science, 387(6735), 720–722. https://doi.org/10.1126/science.adv8264
+
+- Cerullo, G., Worthington, T., Brancalion, P., Brandão, J., **d’Albertas, F.** et al. (2024). Conflicts and opportunities for commercial tree plantation expansion and biodiversity restoration across brazil. Global Change Biology, 30(3), e17208. https://doi.org/10.1111/gcb.17208
+
+- **d’Albertas, F.**, et al. (2023). Yield increases mediated by pollination and carbon payments can offset restoration costs in coffee landscapes. One Earth. https://doi.org/10.1016/j.oneear.2023.11.007
+
+- Berger, I., Dicks, L. V., & **Gomes de Carvalho, F. d’Albertas**. (2023). Quantify wild areas that optimize agricultural yields. Nature, 622(7984), 697–697. https://doi.org/10.1038/d41586-023-03312-y
+
+- González‑Chaves, A. D., Carvalheiro, L. G., Piffer, P. R.,**d’Albertas, F.**, et al. (2023). Evidence of time‑lag in the provision of ecosystem services by tropical regenerating forests to coffee yields. Environmental Research Letters, 18(2), 025002. https://doi.org/10.1088/1748-9326/acb161
+
+- Pashkevich, M. D., **d’Albertas, F.** et al. (2022). Nine actions to successfully restore tropical agroecosystems. Trends in Ecology & Evolution. https://doi.org/10.1016/j.tree.2022.07.007
+
+- **d’Albertas, F.et al**. (2018). Lack of evidence of edge age and additive edge effects on carbon stocks in a tropical forest. Forest Ecology and Management, 407, 57–65. https://doi.org/10.1016/j.foreco.2017.09.042
+
+- Acosta, A. L., **d’Albertas, F.** et al. (2018). Gaps and limitations in the use of restoration scenarios: A review. Restoration Ecology, 26(6), 1108–1119. https://doi.org/10.1111/rec.12882
+
+- Metzger, J. P., Esler, K., Krug, C., Arias, M., Tambosi, L., Crouzeilles, R., Acosta, A. L., Brancalion, P. H., **d’Albertas, F.** et al (2017). Best practice for the use of scenarios for restoration planning. Current Opinion in Environmental Sustainability, 29, 14–25. https://doi.org/10.1016/j.cosust.2017.10.004
+
+## Full publication list at fdalbertas.com
 
 ```{r}
-library(dplyr)
+#library(dplyr)
 #knitr::write_bib(c("vitae", "tibble"), "packages.bib")
 #x <- bibliography_entries("my_pubs.bib")
-bibliography_entries("my_pubs.bib") %>%
-  arrange(desc(issued))
+# bibliography_entries("my_pubs.bib") %>%
+#   arrange(desc(issued))
+
+
+
 ```
+
 
