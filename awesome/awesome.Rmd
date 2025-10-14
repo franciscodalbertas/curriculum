@@ -25,7 +25,7 @@ library(vitae)
 
 # About me
 
-I am a landscape ecologist with master’s and doctoral training in ecology. My work focuses on nature-based solutions that promote biodiversity conservation and climate change mitigation. I assess the ecological and economic impacts of conservation strategies, such as ecological restoration, with a particular emphasis on carbon credit projects as a tool to deliver credible and effective outcomes. Throughout my career, I have oriented my work toward applied questions, with the goal of informing policy and guiding real-world conservation decisions.
+I am a landscape ecologist with master’s and doctoral training in ecology. My work focuses on nature-based solutions that promote biodiversity conservation and climate change mitigation. I assess the ecological and economic impacts of conservation strategies, such as ecological restoration, with a particular emphasis on carbon credit projects as a tool to deliver credible and effective outcomes. Throughout my career, I have oriented my work toward applied questions, with the goal of informing policy and guiding real-world conservation decisions. Currently, I work at the University of Cambridge, leading research on the carbon and biodiversity outcomes of tropical restoration under production displacement (leakage).
 
 # Skills & Languages
 
@@ -42,8 +42,8 @@ I am a landscape ecologist with master’s and doctoral training in ecology. My 
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "PhD in Ecology", "2017-2022", "Universidade de São Paulo with 1 year as visiting researcher at the University of Cambridge", "São Paulo, Brasil",
-  "Master in Ecology", "2013-2015", "Universidade de São Paulo", "São Paulo, Brasil",
+  "PhD in Ecology - 'Paths for an ecological intensification of agriculture through restoration and agriculture certification' ", "2017-2022", "Universidade de São Paulo with 1 year as visiting researcher at the University of Cambridge", "São Paulo, Brasil",
+  "Master in Ecology - 'Edge effects modulation of carbon stocks in fragmented Atlantic Forest landscapes'", "2013-2015", "Universidade de São Paulo", "São Paulo, Brasil",
   "Biological Sciences degree", "2006-2011", "Universidade de São Paulo", "São Paulo, Brasil",
   
 ) %>% 
