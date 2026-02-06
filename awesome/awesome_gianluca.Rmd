@@ -1,0 +1,122 @@
+---
+name: Francisco
+surname: d'Albertas Gomes de Carvalho
+position: "Research Associate"
+address: "Conservation Research Institute (UCCRI),
+Department of Zoology,University of Cambridge"
+#phone: +55 11 99121 8851
+email: "fd370@cam.ac.uk"
+www: fdalbertas.com
+#twitter: FdAlbertas
+github: franciscodalbertas
+linkedin: franciscodalbertas
+headcolor: "414141"
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::awesomecv:
+    page_total: true
+    keep_tex: true
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# About me
+
+I am a landscape ecologist with master’s and doctoral training in ecology. My research focuses on understanding when and where conservation interventions are effective at delivering net positive environmental outcomes, using spatial and quantitative approaches. Much of my recent work has used nature-based solutions and ecological restoration as case studies to evaluate the ecological and economic consequences of conservation strategies, including their implications for climate mitigation. Throughout my career, I have been motivated by applied questions that test the real-world performance of conservation actions and inform policy-relevant decision-making. I am currently a Research Associate at the University of Cambridge, where I lead research on how to deal with leakage from forest restoration, with the broader goal of informing sustainable large-scale efforts.
+
+# Skills & Languages
+
+## **Quantitative & Spatial Methods**: R, GIS, Remote Sensing, Google Earth Engine, Data Analysis, Spatial Prioritization, Ecosystem Service Modelling 
+
+## **Research & Policy Interface**: Nature-based solutions, Policy Analysis, scientific writing and communication
+
+## **Languages**: Portuguese (native), English (fluent), French (advanced), Spanish (intermediate)
+
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "PhD in Ecology - 'Paths for an ecological intensification of agriculture through restoration and agriculture certification' ", "2017-2022", "Universidade de São Paulo with 1 year as visiting researcher at the University of Cambridge", "São Paulo, Brasil",
+  "Master in Ecology - 'Edge effects modulation of carbon stocks in fragmented Atlantic Forest landscapes'", "2013-2015", "Universidade de São Paulo", "São Paulo, Brasil",
+  "Biological Sciences degree", "2006-2011", "Universidade de São Paulo", "São Paulo, Brasil",
+  
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Professional experience
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Research associate","2024 - Present","Conservation Research Institute,Department of Zoology,University of Cambridge","Cambridge, UK",
+  "Data scientist at UNEP-WCMC-lead project Trade, Development and the Environment HUB","2022-2024","International Institute for Sustainability-IIS","Rio de Janeiro, Brazil",
+  "Researcher - Sao Paulo Research Foundation and Belmont Forum Training fellowship to enhance usefulness of biodiversity scenarios in decision-making", "2015-2017", "Laboratório de Ecologia da Paisagem e Conservação-LEPaC(Departmento de Ecologia, Universidade de São Paulo) ", "São Paulo, Brasil",
+  "Junior environmental analyst (Internship) - Protected Areas Monitoring Programe", "2012-2013", "Instituto Socioambiental - ISA", "São Paulo, Brasil",
+  "Junior environmental analyst (Internship) - Oil and mining environmental impact evaluation ", "2011-2012", "Mineral Engenharia e Ambiente", "São Paulo, Brasil",
+  
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+## Selected Consultancies
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Evaluating the baseline condition of priority ecosystem services at watersheds potentially threatened by mining operation in Brazil","2021","Aquaflora providing services to Vale S.A.","São Paulo, Brazil", 
+  "Monitoring deforestation and fire within Amazonia and Cerrado protected areas", "2020-2021", "World Wildlife Fund - WWF Brazil ", "São Paulo, Brasil",
+  "Mapping threats to federal and state protected areas in Brazil", "2017-2018", "Instituto Socioambiental - ISA ", "São Paulo, Brasil",
+  "Designing ecological corridors between indigenous lands", "2016", "Klabin s/a Papel e Celulose ", "Paraná, Brasil",
+  " Floristic inventory of urban areas in Sao Paulo", "2016", "Bloomberg Philanthropies e Global Road Safety ", "São Paulo, Brasil"
+  
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+## Teaching
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Professor - Co-organized and taught short course Landscape Use for master’s students in management.","2022", "Fundação Getulio Vargas", "Rio de Janeiro, Brazil" 
+  
+  
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+# Publications (full list at fdalbertas.com)
+
+- Borges-Matos, C., **d’Albertas, F.**, Mendes, M.E., Loyola, R., Metzger, J.P., 2025. Combining protection and restoration strategies enables cost-effective compensation with ecological equivalence in Brazil. Environmental Impact Assessment Review 114, 107922. https://doi.org/10.1016/j.eiar.2025.107922
+- Balmford, A., Ball, T.S., Balmford, B., Bateman, I.J., Buchanan, G., Cerullo, G., **d’Albertas, F.**, Eyres, A., Filewod, B., Fisher, B., Green, J.M.H., Hemes, K.S., Holland, J., Lam, M.S., Naidoo, R., Pfaff, A., Ricketts, T.H., Sanderson, F., Searchinger, T.D., Strassburg, B.B.N., Swinfield, T., Williams, D.R., 2025. Time to fix the biodiversity leak. Science 387, 720–722. https://doi.org/10.1126/science.adv8264
+- Cerullo, G., Worthington, T., Brancalion, P., Brandão, J., **d’Albertas, F.**, Eyres, A., Swinfield, T., Edwards, D., Balmford, A., 2024. Conflicts and opportunities for commercial tree plantation expansion and biodiversity restoration across Brazil. Global Change Biology 30, e17208. https://doi.org/10.1111/gcb.17208
+- Cesar de Oliveira, S.E.M., Nakagawa, L., Lopes, G.R., Visentin, J.C., Couto, M., Silva, D.E., **d’Albertas, F.**, Pavani, B.F., Loyola, R., West, C., 2024. The European Union and United Kingdom’s deforestation-free supply chains regulations: Implications for Brazil. Ecological Economics 217, 108053. https://doi.org/10.1016/j.ecolecon.2023.108053
+- **d’Albertas, F.**, Sparovek, G., Pinto, L.-F.G., Hohlenwerger, C., Metzger, J.-P., 2023. Yield increases mediated by pollination and carbon payments can offset restoration costs in coffee landscapes. One Earth. https://doi.org/10.1016/j.oneear.2023.11.007
+- González-Chaves, A.D., Carvalheiro, L.G., Piffer, P.R., **d’Albertas, F.**, Giannini, T.C., Viana, B.F., Metzger, J.P., 2023. Evidence of time-lag in the provision of ecosystem services by tropical regenerating forests to coffee yields. Environ. Res. Lett. 18, 025002. https://doi.org/10.1088/1748-9326/acb161
+- Berger, I., Dicks, L.V., **d’Albertas, F.**, 2023. Quantify wild areas that optimize agricultural yields. Nature 622, 697–697. https://doi.org/10.1038/d41586-023-03312-y
+- **d’Albertas, F.**, Ruggiero, P., Pinto, L.F.G., Sparovek, G., Metzger, J.P., 2023. Agricultural certification as a complementary tool for environmental law compliance. Biological Conservation 277, 109847. https://doi.org/10.1016/j.biocon.2022.109847
+- Pashkevich, M.D., **d’Albertas, F.**, Aryawan, A.A.K., Buchori, D., Caliman, J.-P., Chaves, A.D.G., Hidayat, P., Kreft, H., Naim, M., Razafimahatratra, A., Turner, E.C., Zemp, D.C., Luke, S.H., 2022. Nine actions to successfully restore tropical agroecosystems. Trends in Ecology & Evolution. https://doi.org/10.1016/j.tree.2022.07.007
+- **d’Albertas, F.**, González-Chaves, A., Borges-Matos, C., Zago de Almeida Paciello, V., Maron, M., Metzger, J.P., 2021. Private reserves suffer from the same location biases of public protected areas. Biological Conservation 261, 109283. https://doi.org/10.1016/j.biocon.2021.109283
+
+
+```{r}
+#library(dplyr)
+#knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+#x <- bibliography_entries("my_pubs.bib")
+# bibliography_entries("my_pubs.bib") %>%
+#   arrange(desc(issued))
+
+
+
+```
+
+

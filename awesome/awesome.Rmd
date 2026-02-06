@@ -16,6 +16,7 @@ output:
   vitae::awesomecv:
     page_total: true
     keep_tex: true
+    
 ---
 
 ```{r setup, include=FALSE}
@@ -25,7 +26,7 @@ library(vitae)
 
 # About me
 
-I am a landscape ecologist with master’s and doctoral training in ecology. My work focuses on nature-based solutions that promote biodiversity conservation and climate change mitigation. I assess the ecological and economic impacts of conservation strategies, such as ecological restoration, with a particular emphasis on carbon credit projects as a tool to deliver credible and effective outcomes. Throughout my career, I have oriented my work toward applied questions, with the goal of informing policy and guiding real-world conservation decisions. Currently, I work at the University of Cambridge, leading research on the carbon and biodiversity outcomes of tropical restoration under production displacement (leakage).
+I am a landscape ecologist with master’s and doctoral training in ecology. My work focuses on nature-based solutions that promote biodiversity conservation and climate change mitigation. I assess the ecological and economic impacts of conservation strategies, such as ecological restoration, with a particular emphasis on carbon credit projects as a tool to deliver credible and effective outcomes. Throughout my career, I have oriented my work toward applied questions, with the goal of informing policy and guiding real-world conservation decisions. Currently, I work at the University of Cambridge, leading research on the carbon and biodiversity outcomes of tropical restoration.
 
 # Skills & Languages
 
@@ -93,29 +94,39 @@ tribble(
 ```
 
 
-# Selected Publications
+# List of Publications
 
-- Borges‑Matos, C., **d’Albertas, F.**, et al. (2025). Combining protection and restoration strategies enables cost effective compensation with ecological equivalence in Brazil. Environmental Impact Assessment Review, 114, 107922. https://doi.org/10.1016/j.eiar.2025.107922
+- Borges-Matos, C., **d’Albertas, F.**, Mendes, M.E., Loyola, R., Metzger, J.P., 2025. Combining protection and restoration strategies enables cost-effective compensation with ecological equivalence in Brazil. Environmental Impact Assessment Review 114, 107922. https://doi.org/10.1016/j.eiar.2025.107922
 
-- Balmford, A., Ball, T. S., Balmford, B., Bateman, I. J., Buchanan, G., Cerullo, G., **d’Albertas, F.** et al. (2025). Time to fix the biodiversity leak. Science, 387(6735), 720–722. https://doi.org/10.1126/science.adv8264
+- Balmford, A., Ball, T.S., Balmford, B., Bateman, I.J., Buchanan, G., Cerullo, G., **d’Albertas, F.**, Eyres, A., Filewod, B., Fisher, B., Green, J.M.H., Hemes, K.S., Holland, J., Lam, M.S., Naidoo, R., Pfaff, A., Ricketts, T.H., Sanderson, F., Searchinger, T.D., Strassburg, B.B.N., Swinfield, T., Williams, D.R., 2025. Time to fix the biodiversity leak. Science 387, 720–722. https://doi.org/10.1126/science.adv8264
 
-- Cerullo, G., Worthington, T., Brancalion, P., Brandão, J., **d’Albertas, F.** et al. (2024). Conflicts and opportunities for commercial tree plantation expansion and biodiversity restoration across brazil. Global Change Biology, 30(3), e17208. https://doi.org/10.1111/gcb.17208
+- Cerullo, G., Worthington, T., Brancalion, P., Brandão, J., **d’Albertas, F.**, Eyres, A., Swinfield, T., Edwards, D., Balmford, A., 2024. Conflicts and opportunities for commercial tree plantation expansion and biodiversity restoration across Brazil. Global Change Biology 30, e17208. https://doi.org/10.1111/gcb.17208
 
-- **d’Albertas, F.**, et al. (2023). Yield increases mediated by pollination and carbon payments can offset restoration costs in coffee landscapes. One Earth. https://doi.org/10.1016/j.oneear.2023.11.007
+- Cesar de Oliveira, S.E.M., Nakagawa, L., Lopes, G.R., Visentin, J.C., Couto, M., Silva, D.E., **d’Albertas, F.**, Pavani, B.F., Loyola, R., West, C., 2024. The European Union and United Kingdom’s deforestation-free supply chains regulations: Implications for Brazil. Ecological Economics 217, 108053. https://doi.org/10.1016/j.ecolecon.2023.108053
 
-- Berger, I., Dicks, L. V., & **Gomes de Carvalho, F. d’Albertas**. (2023). Quantify wild areas that optimize agricultural yields. Nature, 622(7984), 697–697. https://doi.org/10.1038/d41586-023-03312-y
+- **d’Albertas, F.**, Rocha, D., Lacerda, E., Niemeyer, J., Oliveira, L.G., Capellão, R., Pavani, B.F., Monteiro de Almeida Rocha, J., 2024. Spatial model of land value for the Brazilian territory with 1km resolution. https://doi.org/10.5281/zenodo.10476110
 
-- González‑Chaves, A. D., Carvalheiro, L. G., Piffer, P. R.,**d’Albertas, F.**, et al. (2023). Evidence of time‑lag in the provision of ecosystem services by tropical regenerating forests to coffee yields. Environmental Research Letters, 18(2), 025002. https://doi.org/10.1088/1748-9326/acb161
+- **d’Albertas, F.**, Sparovek, G., Pinto, L.-F.G., Hohlenwerger, C., Metzger, J.-P., 2023. Yield increases mediated by pollination and carbon payments can offset restoration costs in coffee landscapes. One Earth. https://doi.org/10.1016/j.oneear.2023.11.007
 
-- Pashkevich, M. D., **d’Albertas, F.** et al. (2022). Nine actions to successfully restore tropical agroecosystems. Trends in Ecology & Evolution. https://doi.org/10.1016/j.tree.2022.07.007
+- González-Chaves, A.D., Carvalheiro, L.G., Piffer, P.R., **d’Albertas, F.**, Giannini, T.C., Viana, B.F., Metzger, J.P., 2023. Evidence of time-lag in the provision of ecosystem services by tropical regenerating forests to coffee yields. Environ. Res. Lett. 18, 025002. https://doi.org/10.1088/1748-9326/acb161
 
-- **d’Albertas, F.et al**. (2018). Lack of evidence of edge age and additive edge effects on carbon stocks in a tropical forest. Forest Ecology and Management, 407, 57–65. https://doi.org/10.1016/j.foreco.2017.09.042
+- Berger, I., Dicks, L.V., **d’Albertas, F.**, 2023. Quantify wild areas that optimize agricultural yields. Nature 622, 697–697. https://doi.org/10.1038/d41586-023-03312-y
 
-- Acosta, A. L., **d’Albertas, F.** et al. (2018). Gaps and limitations in the use of restoration scenarios: A review. Restoration Ecology, 26(6), 1108–1119. https://doi.org/10.1111/rec.12882
+- **d’Albertas, F.**, Ruggiero, P., Pinto, L.F.G., Sparovek, G., Metzger, J.P., 2023. Agricultural certification as a complementary tool for environmental law compliance. Biological Conservation 277, 109847. https://doi.org/10.1016/j.biocon.2022.109847
 
-- Metzger, J. P., Esler, K., Krug, C., Arias, M., Tambosi, L., Crouzeilles, R., Acosta, A. L., Brancalion, P. H., **d’Albertas, F.** et al (2017). Best practice for the use of scenarios for restoration planning. Current Opinion in Environmental Sustainability, 29, 14–25. https://doi.org/10.1016/j.cosust.2017.10.004
+- Pashkevich, M.D., **d’Albertas, F.**, Aryawan, A.A.K., Buchori, D., Caliman, J.-P., Chaves, A.D.G., Hidayat, P., Kreft, H., Naim, M., Razafimahatratra, A., Turner, E.C., Zemp, D.C., Luke, S.H., 2022. Nine actions to successfully restore tropical agroecosystems. Trends in Ecology & Evolution. https://doi.org/10.1016/j.tree.2022.07.007
 
-## Full publication list at fdalbertas.com
+- **d’Albertas, F.**, González-Chaves, A., Borges-Matos, C., Zago de Almeida Paciello, V., Maron, M., Metzger, J.P., 2021. Private reserves suffer from the same location biases of public protected areas. Biological Conservation 261, 109283. https://doi.org/10.1016/j.biocon.2021.109283
+
+- Acosta, A.L., **d’Albertas, F.**, Leite, M. de S., Saraiva, A.M., Metzger, J.P.W., 2018. Gaps and limitations in the use of restoration scenarios: a review. Restoration Ecology 26, 1108–1119. https://doi.org/10.1111/rec.12882
+
+- **d’Albertas, F.**, Costa, K., Romitelli, I., Barbosa, J.M., Vieira, S.A., Metzger, J.P., 2018. Lack of evidence of edge age and additive edge effects on carbon stocks in a tropical forest. Forest Ecology and Management 407, 57–65. https://doi.org/10.1016/j.foreco.2017.09.042
+
+- Metzger, J.P., Esler, K., Krug, C., Arias, M., Tambosi, L., Crouzeilles, R., Acosta, A.L., Brancalion, P.H., **d’Albertas, F.**, Duarte, G.T., Garcia, L.C., Grytnes, J.-A., Hagen, D., Jardim, A.V.F., Kamiyama, C., Latawiec, A.E., Rodrigues, R.R., Ruggiero, P.G., Sparovek, G., Strassburg, B., Saraiva, A.M., Joly, C., 2017. Best practice for the use of scenarios for restoration planning. Current Opinion in Environmental Sustainability 29, 14–25. https://doi.org/10.1016/j.cosust.2017.10.004
+
+
+
+
 
 ```{r}
 #library(dplyr)
